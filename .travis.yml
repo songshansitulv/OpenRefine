@@ -34,7 +34,7 @@ script:
 after_success:
   - mvn prepare-package -DskipTests=true
   - mvn jacoco:report coveralls:report
-
+  - bash <(curl -s https://copilot.blackducksoftware.com/ci/travis/scripts/upload)
 cache:
   directories:
   - $HOME/.m2
