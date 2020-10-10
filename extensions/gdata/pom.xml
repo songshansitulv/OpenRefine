@@ -122,17 +122,17 @@
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
       <artifactId>httpclient</artifactId>
-      <version>4.5.6</version>
+      <version>4.5.13</version>
     </dependency>
     <dependency>
       <groupId>com.google.http-client</groupId>
       <artifactId>google-http-client-jackson</artifactId>
-      <version>1.23.0</version>
+      <version>1.28.0</version>
     </dependency>
     <dependency>
       <groupId>com.google.oauth-client</groupId>
       <artifactId>google-oauth-client-jetty</artifactId>
-      <version>1.23.0</version>
+      <version>1.28.0</version>
     </dependency>
     <dependency>
       <groupId>com.google.apis</groupId>
@@ -142,7 +142,7 @@
     <dependency>
       <groupId>com.google.apis</groupId>
       <artifactId>google-api-services-drive</artifactId>
-      <version>v3-rev101-1.23.0</version>
+      <version>v3-rev20181213-1.28.0</version>
     </dependency>
     <dependency>
       <groupId>com.google.apis</groupId>
